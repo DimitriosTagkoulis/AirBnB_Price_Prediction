@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nice places to visit in Athens</name>
+    <description/>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0000FF-3000-115-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0000FF-3000-115-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0000FF-3000-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0000FF-3000-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0000FF-3000-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Livello senza titolo</name>
+      <Placemark>
+        <name>Sytagma Square</name>
+        <description>The Square where the Parliament is located. Sometimes you can find some activities organized by the Municipality, or from some company. Sometimes, also, you can learn how to clash with the police for free. Or, you can just have a seat and enjoy a coffee!</description>
+        <styleUrl>#poly-0000FF-3000-115</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                23.73567,37.975989,0
+                23.734351,37.976201,0
+                23.734093,37.976023,0
+                23.733986,37.975735,0
+                23.733975,37.975296,0
+                23.73404,37.975033,0
+                23.735649,37.974814,0
+                23.735864,37.975955,0
+                23.73567,37.975989,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Ermou Street</name>
+        <description>The most commercial street, even though it lost some stores due to the crisis, never lost his charm. In the narrow streets around you can find a lot of cafe and shops.</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.733963,37.97567,0
+            23.725766,37.976702,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Stadiou Avenue</name>
+        <description>One of the most central streets in Athens. You can find cafe, shops and nice buildings.</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.729435,37.982571,0
+            23.734739,37.976054,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Panepistimiou - Eleftheriou Venizelou Avenue</name>
+        <description><![CDATA[This very interesting street, will be pedestrian in a few years. Even today, it's nice to walk in this plenty of traffic avenue!]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.73053,37.98318,0
+            23.735808,37.976871,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Riga 5</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.735615,37.976042,0
+            23.735808,37.976837,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lycabetttus Hill</name>
+        <description><![CDATA[Don't miss the experience to get on the highest hill of Athens! There you can admire the panorama from a height of 277m. There is also a church (St. George), a cafe (expensive), and a restaurant (very expensive)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.743306,37.981885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Parliament</name>
+        <description><![CDATA[In Sytagma Sq, you'll find the Greek Parliament, a nice neoclassical building.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.737078,37.975208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kolonaki Square - Platia Filikis Eterias</name>
+        <description><![CDATA[Even thought the real name of the square is "Filikis Eterias", it's known as "Kolonaki Square", "Platìa Kolonakìou" in greek. Here you can seat in of the well-knowns cafe of the Athenian "aristocracy". Otherwise, you can just seat in one the beautiful stone gazebo on the square.]]></description>
+        <styleUrl>#poly-0000FF-3000-115</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                23.740638,37.976564,0
+                23.741357,37.976894,0
+                23.741046,37.977385,0
+                23.740295,37.977029,0
+                23.740638,37.976564,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Kolonaki</name>
+        <description>All bar, restaurants and shops of Kolonaki!</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.743547,37.977712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Library of Greece</name>
+        <description><![CDATA[At 32 Panepistimiou St, there is the National Library of Greece, an amazing neoclassical building. Just outside the metro station "Panepistimio"]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.733923,37.980824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The new Acropolis museum </name>
+        <description><![CDATA[The new Acropolis museum offer to the visitor an unique experience of the story of ancient Greece. Moreover there still is a discussion concerning the beauty of the building! What do you think?<br>http://www.theacropolismuseum.gr/default.php?pname=Home&la=2]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.728602,37.968425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Archaeological Museum</name>
+        <description><![CDATA[A must in Athens! Don't miss it! <br>http://www.namuseum.gr/]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.7327,37.98901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Keramikos</name>
+        <description><![CDATA[There is something wrong! The metro station here is "Keramikos". You'll find a lot of trendy restaurants and café-bars.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.711382,37.9786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Acropolis</name>
+        <description>Definitely, there is the heart of ancient Greece.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.726521,37.971606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dionysiou Aeropagitou</name>
+        <description>From there you can have one of the best walk in the world (my opinion)! Just at the feet of Acropolis, this pedestrian street is plenty of neoclassical buildings. You can feel really nice, walking through this Dionysiou Aeropagitou.</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.722453,37.970263,0
+            23.729308,37.969418,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>The Plaka</name>
+        <description>All the Plaka is amazing, with his streets that bring you in the past!</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.728924,37.972773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Voukourestiou Street</name>
+        <description><![CDATA[Voukourestiou (yes, it means "Bucharest"!) St is definitely the jewellers streets, especially in the firs zone (from Panepistimiou St). <br>One of this jewellers is owned by the mother of Alexandros Grigoropoulos, the guy who has been killed by the Police on December 6 2008.]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.734413,37.976668,0
+            23.741065,37.980085,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Exarchia</name>
+        <description><![CDATA[For all those guys who loves "alternative style" bars and restaurants.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.73491,37.986625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Panathenaic Stadium</name>
+        <description>The stadium where the first Olympic Games of the modern era took place in 1986</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.740039,37.969339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Dromeas </name>
+        <description>Dromeas (the runner) is a beautiful all-glass sculpture by Kostas Varotsos! I love it!</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.749432,37.976661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mitropoleos Square</name>
+        <description><![CDATA[In this square you'll find the beautiful Cathedral of Athens.]]></description>
+        <styleUrl>#poly-0000FF-3000-115</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                23.729029,37.975203,0
+                23.729287,37.975135,0
+                23.729222,37.975,0
+                23.730167,37.974754,0
+                23.730242,37.975033,0
+                23.730789,37.974991,0
+                23.730832,37.975363,0
+                23.729126,37.975634,0
+                23.729029,37.975203,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Vasilissis Sofias Avenue</name>
+        <description>On one hand the Parliament and his park, on the other some beautiful neo-classical buildings. Most of those buildings are embassies.</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.735915,37.976127,0
+            23.742954,37.975281,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Benaki Museum</name>
+        <description><![CDATA[Is one of the most famous museums in the city. <br>http://www.benaki.gr/index.asp?lang=en]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.740393,37.976054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Calatrava's pedestrian bridge]]></name>
+        <description>This very beautiful pedestrian bridge was built for the 2004 Olympics. The architect  is Santiago Calatrava</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.776195,37.993411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eleftheria Park</name>
+        <description>Nice piece of green where to escape (with your girl/boy-frien, maybe:) for a while. Looking at the park, the building at your right is the Concert Hall of Athens, and the next one is the US Embassy!</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.752876,37.980198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of Kapnikarea</name>
+        <description>This small, very beautiful church, is one of the oldest in Greece. It was built some time in the 11th century, and is very funny to see how is surrounded by modern buildings!</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.728548,37.976393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olympic Athletic Center of Athens</name>
+        <description><![CDATA[The Olympic Athletic Center of Athens, known as "OAKA",  is a multi facilities sport complex. For the 2004 Olympics Santiago Calatrava designed the roof of the football field and others amenities!]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.789949,38.035315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kifisia</name>
+        <description><![CDATA[Kiffissia is a Municipality about 20km north of Athens Centre. Is a very nice place to have a coffee or a drink. Here lives the high society of Athens, and here the "high society kids" (or those who would be) come for a drink/coffee.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.808661,38.073366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

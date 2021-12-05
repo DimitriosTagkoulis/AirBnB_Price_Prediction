@@ -1,0 +1,3079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Athens Transportation (Metro, Tram)</name>
+    <description><![CDATA[ISAP and Attiko Metro lines<br>Tram lines<br>Railways]]></description>
+    <Style id="icon-103-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/103-plane.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-103-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/103-plane.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-103-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-103-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-103-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-111-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-111-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-111">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-111-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-111-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-112-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/112-purple.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-112-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/112-purple.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-112">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-112-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-112-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-115-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/115-rail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-115-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/115-rail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-123-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-123-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-123">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-124-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-124-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-124">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-159-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/159-blue-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-159-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/159-blue-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-159-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-159-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-159-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-165-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/165-pink-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-165-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/165-pink-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-165-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-165-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-165-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-167-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-167-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-167">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-167-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-167-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-168-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-168-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-168">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-168-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-168-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-24-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-24-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-24">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-24-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-24-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-49-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/49-ferry.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-49-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/49-ferry.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-49-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-49-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-49-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-61-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-62-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-62-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-62">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-62-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-62-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000099-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000099-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000099-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000099-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000099-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000099-6000-normal">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000099-6000-highlight">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000099-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000099-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000099-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009900-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009900-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009900-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009900-6000-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-009900-6000-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-009900-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-330099-6000-normal">
+      <LineStyle>
+        <color>ff990033</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-330099-6000-highlight">
+      <LineStyle>
+        <color>ff990033</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-330099-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-330099-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-330099-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33FFFF-4000-normal">
+      <LineStyle>
+        <color>ffffff33</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-33FFFF-4000-highlight">
+      <LineStyle>
+        <color>ffffff33</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-33FFFF-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33FFFF-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33FFFF-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC0000-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC0000-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC0000-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC0000-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC0000-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC0000-6000-normal">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CC0000-6000-highlight">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CC0000-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC0000-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC0000-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6600-4000-normal">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF6600-4000-highlight">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF6600-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6600-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6600-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF9900-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF9900-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Calque sans titre</name>
+      <Placemark>
+        <name>ISAP (metro line 1) : Piraeus - Kifissia</name>
+        <description>(ΗΣΑΠ) Πειραιάς - Κηφισιάς</description>
+        <styleUrl>#line-009900-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.64272,37.948,0
+            23.64479,37.94802,0
+            23.64382,37.94839,0
+            23.64263,37.94841,0
+            23.64381,37.94839,0
+            23.64431,37.9482,0
+            23.64275,37.94821,0
+            23.64431,37.9482,0
+            23.64479,37.94802,0
+            23.64735,37.94796,0
+            23.65092,37.94871,0
+            23.65224,37.94869,0
+            23.65548,37.94814,0
+            23.65724,37.94755,0
+            23.6619,37.94447,0
+            23.66279,37.94424,0
+            23.66365,37.94431,0
+            23.66468,37.94466,0
+            23.66606,37.94552,0
+            23.66675,37.94634,0
+            23.66922,37.95086,0
+            23.67034,37.95181,0
+            23.67251,37.95281,0
+            23.67948,37.95501,0
+            23.70351,37.96238,0
+            23.7069,37.96497,0
+            23.70896,37.96808,0
+            23.71242,37.97456,0
+            23.7136,37.97598,0
+            23.71467,37.97664,0
+            23.71579,37.97718,0
+            23.71702,37.97739,0
+            23.71849,37.97739,0
+            23.72274,37.97588,0
+            23.72385,37.97571,0
+            23.72426,37.97569,0
+            23.72465,37.97575,0
+            23.72553,37.97608,0
+            23.72595,37.9764,0
+            23.72808,37.98395,0
+            23.73023,37.99296,0
+            23.72982,37.99442,0
+            23.72858,37.99518,0
+            23.72409,37.99596,0
+            23.72291,37.99668,0
+            23.72266,37.9977,0
+            23.72295,38.00073,0
+            23.72332,38.00152,0
+            23.72703,38.00582,0
+            23.72757,38.00679,0
+            23.72946,38.01604,0
+            23.73225,38.02096,0
+            23.7333,38.02203,0
+            23.73595,38.02387,0
+            23.74212,38.02772,0
+            23.74514,38.03333,0
+            23.74986,38.03683,0
+            23.75106,38.03791,0
+            23.75207,38.04016,0
+            23.75319,38.04107,0
+            23.75463,38.04138,0
+            23.7566,38.04187,0
+            23.75838,38.04258,0
+            23.75928,38.04368,0
+            23.76008,38.04537,0
+            23.76083,38.04636,0
+            23.76211,38.04706,0
+            23.7643,38.04706,0
+            23.76656,38.04611,0
+            23.7696,38.04494,0
+            23.78027,38.04503,0
+            23.78207,38.04422,0
+            23.78399,38.04285,0
+            23.78527,38.0425,0
+            23.78648,38.04227,0
+            23.78771,38.04228,0
+            23.78875,38.04262,0
+            23.79234,38.04455,0
+            23.79418,38.04627,0
+            23.79797,38.05057,0
+            23.8013,38.05398,0
+            23.8058,38.05682,0
+            23.80638,38.05763,0
+            23.80608,38.05937,0
+            23.80394,38.06321,0
+            23.80368,38.06441,0
+            23.80398,38.06574,0
+            23.80454,38.06752,0
+            23.804251,38.069328,0
+            23.80453,38.070241,0
+            23.805195,38.070849,0
+            23.807191,38.071474,0
+            23.807888,38.071955,0
+            23.808242,38.072673,0
+            23.808135,38.073839,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ISAP (metro line 1) : future extension to Aghios Stefanos</name>
+        <styleUrl>#line-009900-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.8082,38.07276,0
+            23.80806,38.07459,0
+            23.80721,38.08,0
+            23.80729,38.08051,0
+            23.80774,38.08113,0
+            23.81014,38.08336,0
+            23.816986,38.088499,0
+            23.828831,38.10417,0
+            23.840847,38.112004,0
+            23.845997,38.118757,0
+            23.844795,38.126455,0
+            23.839989,38.131046,0
+            23.841362,38.135502,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Metro- Line 2 : Aghios Dimitrios - Aghios Antonios</name>
+        <description>Άγιος Δημήτριος - Άγιος Αντώνιος</description>
+        <styleUrl>#line-CC0000-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.74085,37.93989,0
+            23.73737,37.94907,0
+            23.73464,37.95645,0
+            23.73317,37.957,0
+            23.72995,37.95705,0
+            23.72843,37.95763,0
+            23.72686,37.96084,0
+            23.72671,37.96436,0
+            23.72952,37.9687,0
+            23.73252,37.97187,0
+            23.73537,37.9752,0
+            23.73544,37.97671,0
+            23.73476,37.97813,0
+            23.73291,37.98027,0
+            23.73057,37.98246,0
+            23.72791,37.9842,0
+            23.72121,37.98614,0
+            23.72031,37.98692,0
+            23.71999,37.98794,0
+            23.721011,37.99199,0
+            23.72173,37.99543,0
+            23.7225,37.9994,0
+            23.72275,38.00049,0
+            23.72225,38.00142,0
+            23.72096,38.00182,0
+            23.71334,38.00277,0
+            23.70911,38.00373,0
+            23.69953,38.00632,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Metro- Line 2 : extension to Peristeri (end 2009)</name>
+        <styleUrl>#line-CC0000-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.690343,38.017567,0
+            23.69508,38.013645,0
+            23.697392,38.010974,0
+            23.697853,38.008776,0
+            23.69854,38.007272,0
+            23.699473,38.006367,0
+            23.699988,38.006206,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Metro- Line 2 : extension to Elliniko (spring 2010)</name>
+        <styleUrl>#line-CC0000-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.74062,37.94036,0
+            23.74162,37.93783,0
+            23.74471,37.93343,0
+            23.74488,37.93099,0
+            23.74437,37.92305,0
+            23.74396,37.91958,0
+            23.74405,37.91324,0
+            23.74613,37.89703,0
+            23.746551,37.894249,0
+            23.74742,37.891624,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Metro - Line 2 : future extension to Zephyri</name>
+        <styleUrl>#line-FF0000-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.6919,38.01627,0
+            23.68838,38.01917,0
+            23.6854,38.02142,0
+            23.684893,38.02301,0
+            23.685751,38.024768,0
+            23.690729,38.027473,0
+            23.702145,38.039574,0
+            23.702488,38.042008,0
+            23.696737,38.04951,0
+            23.696566,38.051403,0
+            23.698196,38.053228,0
+            23.708839,38.056742,0
+            23.711758,38.058364,0
+            23.71356,38.061,0
+            23.713474,38.065595,0
+            23.710728,38.07046,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Metro - Line 2 : future extension to Glyfada</name>
+        <styleUrl>#line-FF0000-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.74658,37.89413,0
+            23.74815,37.8895,0
+            23.74965,37.88653,0
+            23.75227,37.88488,0
+            23.758879,37.884135,0
+            23.764887,37.883457,0
+            23.767118,37.881831,0
+            23.766947,37.87946,0
+            23.764801,37.878038,0
+            23.751411,37.874379,0
+            23.749523,37.870924,0
+            23.745832,37.867875,0
+            23.745489,37.866181,0
+            23.74609,37.864555,0
+            23.751841,37.859134,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Metro- Line 3 : Airport (Eleftherios Venizelos) - Egaleo</name>
+        <description>Εθνική Άμυνα - Αιγάλεω</description>
+        <styleUrl>#line-000099-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.949423,37.941862,0
+            23.925712,37.91705,0
+            23.923207,37.915433,0
+            23.919672,37.914308,0
+            23.914522,37.913351,0
+            23.910928,37.912327,0
+            23.905048,37.909559,0
+            23.904094,37.909136,0
+            23.903085,37.908721,0
+            23.90198,37.90845,0
+            23.901004,37.908442,0
+            23.900188,37.908552,0
+            23.899469,37.908831,0
+            23.89874,37.909347,0
+            23.898203,37.909906,0
+            23.895779,37.91297,0
+            23.888891,37.924583,0
+            23.88741,37.92856,0
+            23.886423,37.932554,0
+            23.886209,37.960001,0
+            23.885543,37.962843,0
+            23.884342,37.965465,0
+            23.882024,37.968341,0
+            23.871789,37.978202,0
+            23.870738,37.979522,0
+            23.870137,37.980858,0
+            23.869836,37.982295,0
+            23.869858,37.983834,0
+            23.872476,37.992493,0
+            23.87269,37.994336,0
+            23.872411,37.996399,0
+            23.870459,38.00296,0
+            23.869772,38.005344,0
+            23.868613,38.008827,0
+            23.867841,38.012732,0
+            23.867047,38.014862,0
+            23.865588,38.01684,0
+            23.863614,38.018514,0
+            23.861403,38.019731,0
+            23.858657,38.020576,0
+            23.849591,38.021874,0
+            23.84295,38.022715,0
+            23.83875,38.023332,0
+            23.837864,38.023636,0
+            23.83677,38.024143,0
+            23.83544,38.024498,0
+            23.83393,38.02444,0
+            23.83198,38.02377,0
+            23.82966,38.02317,0
+            23.82413,38.0226,0
+            23.81863,38.02162,0
+            23.81357,38.01876,0
+            23.81167,38.01603,0
+            23.81046,38.0131,0
+            23.80848,38.01094,0
+            23.80604,38.00977,0
+            23.79462,38.0048,0
+            23.78518,37.99895,0
+            23.77653,37.99283,0
+            23.7731,37.99232,0
+            23.77003,37.99298,0
+            23.76662,37.99359,0
+            23.7634,37.99308,0
+            23.75973,37.99034,0
+            23.7572,37.9872,0
+            23.75544,37.98256,0
+            23.75334,37.97906,0
+            23.75055,37.97749,0
+            23.74763,37.9764,0
+            23.73551,37.97539,0
+            23.72578,37.97624,0
+            23.71883,37.97783,0
+            23.71158,37.97877,0
+            23.69407,37.98769,0
+            23.68168,37.99158,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Metro- Line 3 : extension to Piraeus (2013)</name>
+        <styleUrl>#line-000099-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.68217,37.99146,0
+            23.67759,37.99311,0
+            23.66925,37.99659,0
+            23.66555,37.99702,0
+            23.66274,37.99623,0
+            23.66116,37.99416,0
+            23.65961,37.99017,0
+            23.65038,37.97708,0
+            23.64918,37.97333,0
+            23.64931,37.97028,0
+            23.64918,37.96774,0
+            23.64729,37.96565,0
+            23.64395,37.96335,0
+            23.64197,37.96084,0
+            23.64106,37.95797,0
+            23.6409,37.95506,0
+            23.64141,37.95252,0
+            23.64195,37.9503,0
+            23.64249,37.94741,0
+            23.64373,37.94539,0
+            23.647245,37.942852,0
+            23.649927,37.942539,0
+            23.652148,37.943368,0
+            23.653586,37.944841,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tram- Line 3 : Piraeus - Voula</name>
+        <description>Πειραιάς (Σ.Ε.Φ.) - Βουλα</description>
+        <styleUrl>#line-330099-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.663408,37.94377,0
+            23.665495,37.943698,0
+            23.66579,37.943736,0
+            23.666005,37.943918,0
+            23.666187,37.944269,0
+            23.666434,37.944401,0
+            23.672528,37.944451,0
+            23.678455,37.944088,0
+            23.67948,37.943897,0
+            23.683466,37.942759,0
+            23.684619,37.942353,0
+            23.685542,37.941913,0
+            23.686856,37.941202,0
+            23.68853,37.940305,0
+            23.689227,37.939958,0
+            23.689506,37.939595,0
+            23.689839,37.939036,0
+            23.6903,37.938139,0
+            23.691105,37.937674,0
+            23.692049,37.937386,0
+            23.693057,37.937115,0
+            23.693765,37.93676,0
+            23.694227,37.936252,0
+            23.694484,37.935685,0
+            23.694463,37.935144,0
+            23.694388,37.934814,0
+            23.694184,37.93445,0
+            23.693626,37.933858,0
+            23.693283,37.93357,0
+            23.692907,37.933477,0
+            23.692499,37.933494,0
+            23.691738,37.933468,0
+            23.691244,37.933367,0
+            23.690659,37.933231,0
+            23.690085,37.932872,0
+            23.688986,37.932609,0
+            23.687913,37.932372,0
+            23.68736,37.932072,0
+            23.686856,37.9312,0
+            23.686497,37.930452,0
+            23.686389,37.929821,0
+            23.686577,37.929153,0
+            23.686845,37.928645,0
+            23.687666,37.927909,0
+            23.688648,37.927519,0
+            23.689646,37.926935,0
+            23.690515,37.926021,0
+            23.69163,37.924523,0
+            23.692328,37.923652,0
+            23.692934,37.923089,0
+            23.693508,37.922666,0
+            23.6945,37.922187,0
+            23.697059,37.921138,0
+            23.698545,37.920444,0
+            23.69958,37.919775,0
+            23.700149,37.919369,0
+            23.700487,37.918832,0
+            23.700761,37.918282,0
+            23.70105,37.917782,0
+            23.701528,37.917376,0
+            23.702252,37.917067,0
+            23.703099,37.916919,0
+            23.703732,37.916792,0
+            23.704371,37.916538,0
+            23.705186,37.915937,0
+            23.706071,37.915366,0
+            23.706667,37.914693,0
+            23.707058,37.91427,0
+            23.707305,37.914054,0
+            23.707847,37.913749,0
+            23.708056,37.913597,0
+            23.708271,37.91344,0
+            23.708528,37.912928,0
+            23.708845,37.912412,0
+            23.710079,37.911375,0
+            23.710814,37.910803,0
+            23.711661,37.910135,0
+            23.712353,37.909783,0
+            23.713989,37.90906,0
+            23.714617,37.908543,0
+            23.716725,37.906592,0
+            23.717814,37.905022,0
+            23.718957,37.903726,0
+            23.719295,37.90277,0
+            23.719343,37.901834,0
+            23.719295,37.900141,0
+            23.719364,37.899413,0
+            23.719804,37.898012,0
+            23.72055,37.895616,0
+            23.721097,37.893512,0
+            23.72129,37.893148,0
+            23.722857,37.890578,0
+            23.726837,37.884668,0
+            23.729702,37.880167,0
+            23.730083,37.879134,0
+            23.73049,37.877758,0
+            23.731032,37.876484,0
+            23.731375,37.875988,0
+            23.731644,37.875514,0
+            23.731617,37.875019,0
+            23.731767,37.874485,0
+            23.732432,37.873884,0
+            23.73321,37.873257,0
+            23.734041,37.872114,0
+            23.73571,37.870606,0
+            23.736198,37.87006,0
+            23.736418,37.86948,0
+            23.736836,37.868341,0
+            23.737271,37.867879,0
+            23.737925,37.867591,0
+            23.738413,37.867502,0
+            23.739036,37.867312,0
+            23.739454,37.866884,0
+            23.740307,37.866003,0
+            23.740897,37.865605,0
+            23.741852,37.865037,0
+            23.742941,37.864516,0
+            23.743998,37.864106,0
+            23.744647,37.863839,0
+            23.744963,37.863204,0
+            23.745178,37.862717,0
+            23.74595,37.862462,0
+            23.746514,37.862645,0
+            23.746921,37.86306,0
+            23.747281,37.863293,0
+            23.748279,37.863381,0
+            23.749341,37.863242,0
+            23.750607,37.862933,0
+            23.751551,37.862534,0
+            23.752468,37.861988,0
+            23.753176,37.861361,0
+            23.753691,37.860806,0
+            23.754297,37.859777,0
+            23.754523,37.859163,0
+            23.754678,37.858155,0
+            23.754485,37.857168,0
+            23.754281,37.856592,0
+            23.753938,37.855741,0
+            23.753589,37.855284,0
+            23.752908,37.854784,0
+            23.75271,37.854534,0
+            23.752613,37.853932,0
+            23.752345,37.853767,0
+            23.751776,37.853708,0
+            23.75147,37.853441,0
+            23.751492,37.852967,0
+            23.751717,37.852094,0
+            23.751948,37.851141,0
+            23.752474,37.849205,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tram- Line 4 : Syntagma - Piraeus</name>
+        <description>Σύνταγμα - Πειραιάς (Σ.Ε.Φ.)</description>
+        <styleUrl>#line-FF6600-4000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.73527,37.974688,0
+            23.735045,37.973635,0
+            23.734878,37.973344,0
+            23.732931,37.971085,0
+            23.73284,37.970887,0
+            23.732899,37.970696,0
+            23.733135,37.97057,0
+            23.736466,37.969225,0
+            23.737223,37.969072,0
+            23.737566,37.969005,0
+            23.737721,37.968857,0
+            23.737689,37.968692,0
+            23.737271,37.968404,0
+            23.736514,37.968155,0
+            23.735667,37.967998,0
+            23.73498,37.967855,0
+            23.73461,37.967677,0
+            23.734412,37.96747,0
+            23.7341,37.96733,0
+            23.732952,37.967237,0
+            23.732078,37.967013,0
+            23.731177,37.966379,0
+            23.730361,37.965786,0
+            23.729761,37.965545,0
+            23.728645,37.9653,0
+            23.727862,37.965097,0
+            23.727159,37.964649,0
+            23.72674,37.964103,0
+            23.726547,37.963621,0
+            23.726027,37.963224,0
+            23.725405,37.962834,0
+            23.725206,37.962458,0
+            23.724058,37.961489,0
+            23.723415,37.961041,0
+            23.723286,37.960737,0
+            23.723221,37.959717,0
+            23.723393,37.959316,0
+            23.724053,37.958791,0
+            23.724788,37.958152,0
+            23.725142,37.958009,0
+            23.727121,37.957767,0
+            23.727652,37.957683,0
+            23.727862,37.957467,0
+            23.727781,37.957264,0
+            23.727293,37.956938,0
+            23.72644,37.956515,0
+            23.72511,37.955801,0
+            23.724171,37.955048,0
+            23.722857,37.953791,0
+            23.720062,37.95127,0
+            23.716452,37.948364,0
+            23.716258,37.948161,0
+            23.716049,37.947806,0
+            23.715792,37.947616,0
+            23.715309,37.947421,0
+            23.715084,37.947193,0
+            23.714697,37.946105,0
+            23.714166,37.944426,0
+            23.711409,37.935546,0
+            23.709521,37.92944,0
+            23.709338,37.929275,0
+            23.70377,37.927925,0
+            23.703464,37.927756,0
+            23.70325,37.927557,0
+            23.698824,37.920732,0
+            23.698711,37.920668,0
+            23.698529,37.920681,0
+            23.69707,37.921316,0
+            23.694275,37.922573,0
+            23.693696,37.922881,0
+            23.692456,37.92388,0
+            23.690772,37.926148,0
+            23.690209,37.926817,0
+            23.689796,37.927244,0
+            23.689093,37.927659,0
+            23.687913,37.928154,0
+            23.687237,37.9287,0
+            23.686888,37.929275,0
+            23.686792,37.929918,0
+            23.687022,37.930807,0
+            23.68751,37.931691,0
+            23.687768,37.931932,0
+            23.688605,37.932258,0
+            23.689699,37.932449,0
+            23.690252,37.932631,0
+            23.690906,37.933003,0
+            23.691512,37.933189,0
+            23.692419,37.933248,0
+            23.692993,37.933223,0
+            23.693411,37.933329,0
+            23.693862,37.933621,0
+            23.694173,37.933976,0
+            23.694431,37.934247,0
+            23.694677,37.934585,0
+            23.69479,37.935025,0
+            23.694795,37.935482,0
+            23.694645,37.93613,0
+            23.694221,37.936777,0
+            23.693712,37.937098,0
+            23.692859,37.937386,0
+            23.691582,37.93778,0
+            23.69082,37.938127,0
+            23.690375,37.938567,0
+            23.689951,37.939624,0
+            23.68942,37.940174,0
+            23.687918,37.940948,0
+            23.685113,37.942425,0
+            23.683986,37.94284,0
+            23.681867,37.943461,0
+            23.679507,37.944121,0
+            23.67853,37.944307,0
+            23.675811,37.944472,0
+            23.672608,37.944671,0
+            23.667131,37.944595,0
+            23.666579,37.944604,0
+            23.666182,37.944561,0
+            23.665972,37.944396,0
+            23.66572,37.944003,0
+            23.665522,37.943893,0
+            23.663456,37.943939,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tram- Line 5 : Syntagma - Voula</name>
+        <description>Σύνταγμα - Βούλα</description>
+        <styleUrl>#line-33FFFF-4000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.75278,37.84928,0
+            23.75181,37.85308,0
+            23.75187,37.85335,0
+            23.7522,37.8535,0
+            23.75257,37.85356,0
+            23.75291,37.85375,0
+            23.75303,37.85444,0
+            23.75412,37.8553,0
+            23.75472,37.85668,0
+            23.75505,37.85807,0
+            23.75497,37.85897,0
+            23.75465,37.85991,0
+            23.75397,37.86094,0
+            23.75291,37.86206,0
+            23.75223,37.86257,0
+            23.75112,37.86316,0
+            23.7491,37.86359,0
+            23.74803,37.86367,0
+            23.7469,37.86359,0
+            23.74627,37.86299,0
+            23.74584,37.86292,0
+            23.74546,37.86313,0
+            23.74524,37.86381,0
+            23.74482,37.86417,0
+            23.74199,37.86552,0
+            23.74059,37.86652,0
+            23.73964,37.86743,0
+            23.73903,37.86782,0
+            23.73788,37.86812,0
+            23.73733,37.86859,0
+            23.73692,37.86974,0
+            23.73655,37.87048,0
+            23.73436,37.87245,0
+            23.73295,37.87416,0
+            23.73232,37.87482,0
+            23.73234,37.87547,0
+            23.73156,37.87695,0
+            23.73041,37.8803,0
+            23.7288,37.88293,0
+            23.72181,37.89335,0
+            23.71978,37.89985,0
+            23.71977,37.9026,0
+            23.71948,37.9037,0
+            23.7169,37.907,0
+            23.71433,37.90923,0
+            23.71182,37.91042,0
+            23.70925,37.91269,0
+            23.70845,37.91384,0
+            23.7074,37.91452,0
+            23.70657,37.91534,0
+            23.70558,37.91608,0
+            23.70454,37.91679,0
+            23.70348,37.91713,0
+            23.70224,37.91733,0
+            23.70158,37.91765,0
+            23.70115,37.91813,0
+            23.70053,37.91922,0
+            23.69998,37.9198,0
+            23.69915,37.9203,0
+            23.699,37.92047,0
+            23.69901,37.92066,0
+            23.70353,37.92754,0
+            23.70381,37.9277,0
+            23.70933,37.92902,0
+            23.70965,37.92916,0
+            23.70985,37.92953,0
+            23.71537,37.94711,0
+            23.71552,37.94727,0
+            23.71593,37.94742,0
+            23.71626,37.94764,0
+            23.71659,37.94814,0
+            23.72037,37.95105,0
+            23.72533,37.95564,0
+            23.72805,37.95704,0
+            23.72835,37.95745,0
+            23.7281,37.95785,0
+            23.72537,37.95829,0
+            23.72479,37.95855,0
+            23.72361,37.95963,0
+            23.72366,37.96088,0
+            23.72556,37.96242,0
+            23.72569,37.96275,0
+            23.72687,37.96349,0
+            23.72704,37.96396,0
+            23.72748,37.96449,0
+            23.72813,37.96483,0
+            23.72992,37.9652,0
+            23.73081,37.9656,0
+            23.73233,37.96672,0
+            23.73305,37.96697,0
+            23.73417,37.96697,0
+            23.73475,37.96728,0
+            23.73502,37.96758,0
+            23.73674,37.9679,0
+            23.73747,37.96811,0
+            23.73812,37.96866,0
+            23.738226,37.969068,0
+            23.73776,37.96933,0
+            23.736928,37.969466,0
+            23.733494,37.970768,0
+            23.733376,37.971073,0
+            23.734717,37.972722,0
+            23.735286,37.973449,0
+            23.735586,37.974608,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Syntagma (Σύνταγμα)</name>
+        <description><![CDATA[Metro station of lines 2 and 3<br>Tram terminus station of lines 4 and 5<br>Στάση των γραμμών 2 και 3 του μετρό<br>Τέρμα των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            23.735619,37.975022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monastiraki (Μοναστηράκι‎)</name>
+        <description><![CDATA[Metro station of line 3<br>ISAP station (metro line 1)<br>Στάση της γραμμής 3 του μετρό<br> <br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            23.725775,37.976211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Omonia (Ομόνοια‎)</name>
+        <description><![CDATA[Metro station of line 2<br>ISAP station (metro line 1)<br>Στάση της γραμμής 2 του μετρό<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            23.728151,37.984054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Attiki (Αττική‎)</name>
+        <description><![CDATA[Metro station of line 2<br>ISAP station (metro line 1)<br>Στάση της γραμμής 2 του μετρό<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            23.722744,37.999325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Syngrou-Fix (Συγγρού-Φιξ‎)</name>
+        <description><![CDATA[Metro station of line 2<br>Tram station of lines 4 and 5<br>Στάση της γραμμής 2 του μετρό<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            23.726939,37.964002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Neos Kosmos (Νέος Κόσμος‎)</name>
+        <description><![CDATA[Metro station of line 2<br>Tram station of lines 4 and 5<br>Στάση της γραμμής 2 του μετρό<br> <br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            23.727947,37.957471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faliro (Φάληρο) / S.E.F. (Σ.Ε.Φ.)</name>
+        <description><![CDATA[ISAP "Faliro" station (metro line 1)<br>Tram terminus "S.E.F." station of lines 3 and 4<br>Σταθμός "Φάληρο" του ΗΣΑΠ (γραμμή 1 του μετρό)<br>Τέρμα "Σ.Ε.Φ." των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            23.664551,37.944198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piraeus (Πειραιάς)</name>
+        <styleUrl>#icon-49-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.639188,37.947616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[International Airport "Eleftherios Venizelos" of Athens (Διεθνές Αεροδρόμιο Αθηνών Ελευθέριος Βενιζέλος)]]></name>
+        <styleUrl>#icon-103-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.952599,37.940542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Larissa Station</name>
+        <description>Σταθμός Λαρίσης</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.720652,37.992341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kifissia (Κηφισιά)</name>
+        <description><![CDATA[End of the ISAP line (metro line 1)<br>Τέρμα της γραμμής του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            23.808231,38.073197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>K.A.T. (Κ.Α.Τ.)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.804004,38.065832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maroussi (Μαρούσι)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.804766,38.056134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Neratziotissa (Νεραντζιώτισσα)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.793018,38.045092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Irini (Ειρήνη)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.783276,38.043385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iraklio (Ηράκλειο)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.766228,38.046182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nea Ionia (Νέα Ιωνία)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.754898,38.041425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pefkakia (Πευκάκια)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.750113,38.037039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perissos (Περισσός)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.74476,38.032772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ano Patissia (Άνω Πατήσια)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.735983,38.023796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agios Eleftherios (Άγιος Ελευθέριος)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.731649,38.019866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kato Patissia (Κάτω Πατήσια)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.728623,38.011912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agios Nikolaos (Άγιος Νικόλαος)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.727701,38.006967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victoria (Βικτώρια)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.730211,37.993017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thissio (Θησείο)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.720673,37.976697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Petralona (Πετράλωνα)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.709054,37.968256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tavros (Ταύρος)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.703411,37.962411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kallithea (Καλλιθέα)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.697209,37.960339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moschato (Μοσχάτο)</name>
+        <description><![CDATA[ISAP station (metro line 1)<br>Σταθμός του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            23.6797,37.955027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piraeus (Πειραιάς)</name>
+        <description><![CDATA[End of the ISAP line (metro line 1)<br><br><br>Τέρμα της γραμμής του ΗΣΑΠ (γραμμή 1 του μετρό)]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            23.643265,37.948022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anthoupoli (Ανθούπολη)</name>
+        <description><![CDATA[End of the metro line 2<br>Τέρμα της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            23.691024,38.017031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peristeri (Περιστέρι)</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.695782,38.012906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agios Antonios (Άγιος Αντώνιος)</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.699741,38.006173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sepolia (Σεπόλια)</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.713431,38.002859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Larissa Station (Σταθμός Λαρίσης)</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.72107,37.992113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metaxourghio (Μεταξουργείο))</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.721199,37.986185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panepistimio (Πανεπιστήμιο)</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.732743,37.980046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Akropoli (Ακρόπολη)</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.729482,37.968425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agios Ioannis (Άγιος Ιωάννης)</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.734674,37.956507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dafni (Δάφνη)</name>
+        <description><![CDATA[Station of metro line 2<br>Στάση της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            23.737367,37.949164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agios Dimitrios (Άγιος Δημήτριος)</name>
+        <description><![CDATA[End of the metro line 2<br>Τέρμα της γραμμής 2 του μετρό]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            23.740629,37.940415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ilioupoli</name>
+        <description>Spring 2010 - Άνοιξη 2010</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            23.744717,37.929394,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alimos</name>
+        <description>Spring 2010 - Άνοιξη 2010</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            23.744084,37.918231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Argyroupoli</name>
+        <description>Spring 2010 - Άνοιξη 2010</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            23.74558,37.902702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elliniko</name>
+        <description>Spring 2010 - Άνοιξη 2010</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            23.747088,37.892665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangelistria</name>
+        <styleUrl>#icon-159-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.653371,37.944612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dimotiko Theatro</name>
+        <styleUrl>#icon-159-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.647052,37.94292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piraeus (Πειραιάς)</name>
+        <styleUrl>#icon-159-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.642374,37.948123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maniatika</name>
+        <styleUrl>#icon-159-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.641098,37.957954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nikea</name>
+        <styleUrl>#icon-159-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.647352,37.965668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Korydallos</name>
+        <styleUrl>#icon-159-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.650603,37.976985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aghia Varvara</name>
+        <styleUrl>#icon-159-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.659476,37.990071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agia Marina (Αγία Μαρίνα)</name>
+        <description><![CDATA[End of the metro line 3<br>Τέρμα της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.667383,37.996839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Egaleo (Αιγάλεω)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.681781,37.991495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eleonas (Ελαιώνας)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.694034,37.987809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kerameikos (Κεραμεικός)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.711286,37.978879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangelismos (Ευαγγελισμός)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.747485,37.976257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Megaro Moussikis (Μέγαρο Μουσικής)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.753192,37.979149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambelokipi (Αμπελόκηποι)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.757055,37.987251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panormou (Πανόρμου)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.76332,37.993034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Katehaki (Κατεχάκη)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.776367,37.992899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ethniki Amyna (Εθνική Άμυνα‎)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.785229,37.999173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holargos (Χολαργός)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.794338,38.004676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nomismatokopio (Νομισματοκοπείο)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.80615,38.009672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aghia Paraskevi (Αγιά Παρασκευή)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.81263,38.017229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Halandri (Χαλάνδρι)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.821058,38.021836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Doukissis Plakentias (Δουκίσσης Πλακεντίας)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.832521,38.023923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pallini (Παλλήνη)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.869793,38.005243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peania-Katza (Παιανία-Κάτζα)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.870029,37.984097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Koropi (Κορωπί)</name>
+        <description><![CDATA[Station of metro line 3<br>Στάση της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            23.895714,37.913123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eleftherios Venizelos Airport (Αεροδρόμιο Ελευθέριος Βενιζέλος)</name>
+        <description><![CDATA[End of the metro line 3<br>Τέρμα της γραμμής 3 του μετρό]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            23.944445,37.936498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zappio (Ζάππειο)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.737893,37.968865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>L. Vouliagmenis (Λ. Βουλιαγμένης)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.731735,37.96662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasomouli (Κασομούλη)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.723495,37.960441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baknana (Μπακνανά)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.723431,37.954147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aegeou (Αιγαίου)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.718769,37.949959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agias Fotinis (Platia) [Αγίας Φωτεινής (Πλατεία)]</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.715068,37.946668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Megalou Alexandrou (Μεγάλου Αλεξάνδρου)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.713791,37.942594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agia Paraskevi (Αγία Παρασκευή)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.713018,37.940107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medeas Mykalis (Μηδείας Μυκάλης)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.712069,37.937065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangeliki Scholi (Ευαγγελική Σχολή)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.71084,37.933164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Achilleos (Αχιλλέως)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.70988,37.93005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amfitheas (Αμφιθέας)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.705508,37.928196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panagitsa (Παναγίτσα)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.70186,37.925238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mousson (Μουσών)</name>
+        <description><![CDATA[Tram station of lines 4 and 5<br>Στάση των γραμμών 4 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.699725,37.921946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edem (Έδεμ)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.700616,37.918861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pikrodafni (Πικροδάφνη)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.705642,37.915785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marina Alimou (Μαρίνα Αλίμου)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.708711,37.912924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalamaki (Καλαμάκι)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.712906,37.909656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zefiros (Ζέφυρος)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.717058,37.906292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Loutra Alimou (Λουτρά Αλίμου)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.719558,37.90227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helliniko (Ελληνικό)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.720191,37.897542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1st Ag. Kosma (1η Αγίου Κοσμά)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.72114,37.8943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2nd Ag. Kosma (2η Αγίου Κοσμά)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.723162,37.890807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agios Alexandros (Άγιος Αλέξανδρος)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.726918,37.885041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hellinon Olimbionikon (Ελλήνων Ολυμπιονικών)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.729476,37.881145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kentro Istioploias (Κέντρο Ιστιοπλοΐας)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.731858,37.875912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Platia Vergoti (Πλατεία Βεργωτή)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.735232,37.871457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paralia Glifadas (Παραλία Γλυφάδας)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.738338,37.867748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paleo Dimarhio (Παλαιό Δημαρχείο)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.743129,37.86469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Platia Katraki (Πλατεία Κατράκη)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.747506,37.863479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agg. Metaxa (Αγγέλου Μεταξά)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.751379,37.862712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Platia Esperidon (Πλατεία Εσπερίδων)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.75426,37.86007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kolimvitirio (Κολυμβητήριο)</name>
+        <description><![CDATA[Tram station of lines 3 and 5<br>Στάση των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.754297,37.856118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Voula (Βούλα)</name>
+        <description><![CDATA[End of the tram lines 3 & 5<br>Τέρμα των γραμμών 3 και 5 του τραμ]]></description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            23.752463,37.849764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Batis (Μπάτης)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.696421,37.921477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flisvos (Φλοίσβος)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.692735,37.923487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parko Flisvou (Πάρκο Φλοίβου)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.688787,37.927672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trocadero (Τροκαντερό)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.687215,37.931349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agia Skepi (Αγία Σκέπη)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.693873,37.933946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delta Falirou (Δέλτα Φαλήρου)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.692317,37.937428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tzitzifies (Τζιτζιφιές)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.688068,37.940673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kallithea (Καλλιθέα)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.684013,37.942653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moschato (Μοσχάτο)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.677908,37.944257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Neo Faliro (Νέο Φάληρο)</name>
+        <description><![CDATA[Tram station of lines 3 and 4<br>Στάση των γραμμών 3 και 4 του τραμ]]></description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            23.668537,37.944557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peloponisou Peiraias Station (Piraeus)</name>
+        <description>Σταθμός Πελοπονήσου Πειραιάς</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.643265,37.949045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drapetsonas Station</name>
+        <description>Σταθμός Δραπετσώνας</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.635674,37.948339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rouf Station</name>
+        <description>Σταθμός Ρούφ</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.703325,37.973441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Irakleio Station</name>
+        <description>Σταθμός Ηρακλείου</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.771389,38.057143,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Neratziotissa Station</name>
+        <description>Σταθμός Νερτζιώτισσας</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.79327,38.045071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kifisia Station</name>
+        <description>Σταθμός Κηφισιάς</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.803586,38.042071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pentelis Station</name>
+        <description>Σταθμός Πεντέλης</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.822136,38.033397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diethnis Aerolimin Eleftherios Venizelos Station (Eleftherios Venizelos International Airport)</name>
+        <description>Σταθμός της Διεθνής Αερολιμήν Ελευθέριος Βενιζέλος</description>
+        <styleUrl>#icon-115</styleUrl>
+        <Point>
+          <coordinates>
+            23.945185,37.937323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metro- Line 4 (Line U) : planned line</name>
+        <styleUrl>#line-FF9900-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.80512,38.056218,0
+            23.807287,38.052822,0
+            23.807373,38.048294,0
+            23.804111,38.040656,0
+            23.795099,38.032814,0
+            23.789434,38.02727,0
+            23.786688,38.023687,0
+            23.785143,38.018953,0
+            23.784628,38.015234,0
+            23.782482,38.009892,0
+            23.777676,38.005632,0
+            23.77583,38.003095,0
+            23.775015,38.000255,0
+            23.775315,37.99711,0
+            23.777246,37.992375,0
+            23.777847,37.989398,0
+            23.77686,37.986253,0
+            23.773685,37.983885,0
+            23.76965,37.982126,0
+            23.768964,37.980875,0
+            23.769522,37.979352,0
+            23.77111,37.976951,0
+            23.771067,37.975259,0
+            23.769779,37.973635,0
+            23.76596,37.971369,0
+            23.758364,37.969204,0
+            23.7533,37.969576,0
+            23.750038,37.971369,0
+            23.748236,37.974955,0
+            23.745446,37.977018,0
+            23.738279,37.977289,0
+            23.735147,37.97871,0
+            23.732722,37.980858,0
+            23.732443,37.983412,0
+            23.73343,37.985475,0
+            23.736391,37.987673,0
+            23.739481,37.98906,0
+            23.741541,37.991563,0
+            23.742228,37.994438,0
+            23.740189,37.996535,0
+            23.739481,37.998665,0
+            23.739803,38.000813,0
+            23.744459,38.004583,0
+            23.752098,38.011042,0
+            23.754244,38.01564,0
+            23.757977,38.02203,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Repère 123</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.757205,38.020509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 124</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.753085,38.012868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 125</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.740726,37.990447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 127</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.740618,37.996112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 128</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.7349,37.98657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 128</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.741434,38.001886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 129</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.733087,37.980283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 130</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.740876,37.976883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 131</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.746798,37.975733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 132</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.754973,37.969271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 133</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.767741,37.972265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 134</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.770809,37.977306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 135</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.769967,37.982262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 136</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.777204,37.992476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 137</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.776109,38.003535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 138</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.784789,38.015539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 139</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.78974,38.027452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 140</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.794638,38.032814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 142</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.804176,38.040875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Repère 143</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            23.805313,38.056168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metro- Line 4 : planned extension westward</name>
+        <styleUrl>#line-FF9900-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.75602,38.01864,0
+            23.75877,38.02348,0
+            23.76269,38.02862,0
+            23.76505,38.02987,0
+            23.76604,38.03139,0
+            23.76514,38.03301,0
+            23.76291,38.03362,0
+            23.7581,38.03318,0
+            23.75299,38.03254,0
+            23.74759,38.03267,0
+            23.737679,38.033287,0
+            23.720684,38.036329,0
+            23.701715,38.034977,0
+            23.686008,38.041602,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Metro- Line 4 : planned extension northward</name>
+        <styleUrl>#line-FF9900-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            23.807212,38.052881,0
+            23.803854,38.058195,0
+            23.801537,38.060594,0
+            23.797245,38.060932,0
+            23.791409,38.059986,0
+            23.784542,38.059783,0
+            23.779564,38.062757,0
+            23.777761,38.066609,0
+            23.779736,38.071812,0
+            23.781023,38.074514,0
+            23.779564,38.077622,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
